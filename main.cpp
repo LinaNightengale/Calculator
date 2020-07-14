@@ -14,12 +14,12 @@ int main()
     test_stack_calc();
     
     string expression;
-    cout << "Введите выражение: ";
+    cout << "Enter an expression: ";
     getline(cin, expression);
     
     double result = evaluate(expression);
 
-    cout << "Ответ: " << result << endl;
+    cout << "Answer: " << result << endl;
 
     return 0;
 }
