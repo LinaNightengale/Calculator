@@ -104,7 +104,7 @@ vector <Token> parse(const string& expression)
         }
         else 
         {
-            cout << "pizdes" << endl;
+            cout << "error" << endl;
         }
     }
     
